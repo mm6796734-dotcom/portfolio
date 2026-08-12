@@ -352,14 +352,20 @@ body{
     }
 
     nav ul {
-        flex-wrap: wrap;
+        display: flex;
+        flex-wrap:nowrap;
         justify-content: center;
-        gap: 12px;
+        gap: 10px;
         padding: 0;
     }
 
+    nav li{
+        list-style: none;
+    }
     nav a {
-        font-size: 16px;
+        font-size: 14px;
+        white-space: nowrap;
+
     }
 
     .hero {
