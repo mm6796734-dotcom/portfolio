@@ -338,3 +338,84 @@ body{
         width: 180px;
     }
 }
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        width: 90%;
+        margin: 15px auto;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        padding: 0;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .hero {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero-buttons a {
+        width: 80%;
+        max-width: 300px;
+        box-sizing: border-box;
+    }
+
+    section {
+        padding: 50px 20px;
+    }
+
+    section h2 {
+        font-size: 38px;
+    }
+
+    .skills-container,
+    .projects-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .skill-card,
+    .project-card {
+        width: 100%;
+        max-width: 450px;
+        box-sizing: border-box;
+    }
+
+    footer {
+        padding: 30px 20px;
+        text-align: center;
+    }
+}
